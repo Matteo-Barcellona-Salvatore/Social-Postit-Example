@@ -1,0 +1,223 @@
+/* BODY & FONT */
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: linear-gradient(180deg, #f0f4ff 0%, #ffffff 100%);
+  color: #212529;
+  margin: 0;
+}
+
+/* NAVBAR MODERNA */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid rgba(0,0,0,.05);
+  transition: .3s;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  color: #0d6efd !important;
+}
+.nav-link {
+  color: #333 !important;
+  font-weight: 500;
+  transition: all .25s;
+}
+.nav-link:hover {
+  color: #0d6efd !important;
+  transform: translateY(-2px);
+}
+
+/* FORM STYLE MODERNO */
+form input, form textarea {
+  border: 2px solid #e7e7e7;
+  border-radius: 0.75rem;
+  padding: 0.8rem;
+  font-size: 1rem;
+  transition: border .25s, box-shadow .25s;
+}
+form input:focus, form textarea:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+}
+
+/* CARD GENERICA */
+.card {
+  border-radius: 1rem;
+  transition: transform .25s, box-shadow .25s;
+}
+.card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 1.25rem 2rem rgba(0,0,0,.12);
+}
+
+/* POST-IT QUADRATI */
+.postit, .postit-square {
+  width: 250px;
+  height: 250px;
+  padding: 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,.15),
+              inset 0 -6px 12px rgba(0,0,0,.06);
+  transform: rotate(-2deg);
+  transition: transform .25s, box-shadow .25s;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+
+  /* TESTO RIMANE DENTRO */
+  overflow: hidden;        /* taglia testo extra */
+  word-wrap: break-word;   /* va a capo parole lunghe */
+  word-break: break-word;  /* compatibilità */
+}
+
+/* BODY & FONT */
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: linear-gradient(180deg, #f0f4ff 0%, #ffffff 100%);
+  color: #212529;
+  margin: 0;
+}
+
+/* NAVBAR MODERNA */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid rgba(0,0,0,.05);
+  transition: .3s;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  color: #0d6efd !important;
+}
+.nav-link {
+  color: #333 !important;
+  font-weight: 500;
+  transition: all .25s;
+}
+.nav-link:hover {
+  color: #0d6efd !important;
+  transform: translateY(-2px);
+}
+
+/* FORM STYLE MODERNO */
+form input, form textarea {
+  border: 2px solid #e7e7e7;
+  border-radius: 0.75rem;
+  padding: 0.8rem;
+  font-size: 1rem;
+  transition: border .25s, box-shadow .25s;
+}
+form input:focus, form textarea:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+}
+
+/* CARD GENERICA */
+.card {
+  border-radius: 1rem;
+  transition: transform .25s, box-shadow .25s;
+}
+.card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 1.25rem 2rem rgba(0,0,0,.12);
+}
+
+/* POST-IT QUADRATI */
+.postit, .postit-square {
+  width: 300px;
+  height: 300px;
+  padding: 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,.15),
+              inset 0 -6px 12px rgba(0,0,0,.06);
+  transform: rotate(-2deg);
+  transition: transform .25s, box-shadow .25s;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+
+  /* TESTO RIMANE DENTRO */
+  overflow: hidden;        /* taglia testo extra */
+  word-wrap: break-word;   /* va a capo parole lunghe */
+  word-break: break-word;  /* compatibilità */
+}
+
+.postit p, .postit h4,
+.postit-square p, .postit-square h4 {
+  margin: 0;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.postit::before, .postit-square::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 12px;
+  background: rgba(0,0,0,.1);
+  border-radius: 4px;
+}
+
+.postit:hover, .postit-square:hover {
+  transform: rotate(0deg) scale(1.05);
+  box-shadow: 0 1.5rem 2rem rgba(0,0,0,.25);
+}
+
+/* POST-IT GRID */
+.row-cols-md-2, .row-cols-lg-3, .row-cols-xl-4 {
+  justify-content: center;
+}
+
+/* FOOTER */
+footer {
+  font-size: 0.9rem;
+  opacity: 0.85;
+  letter-spacing: 0.3px;
+  background: #f8f9fa;
+  border-top: 1px solid rgba(0,0,0,.05);
+  padding: 2rem 0;
+  text-align: center;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .postit, .postit-square { width: 200px; height: 200px; }
+}
+
+/* POST-IT GRID */
+.row-cols-md-2, .row-cols-lg-3, .row-cols-xl-4 {
+  justify-content: center;
+}
+
+/* FOOTER */
+footer {
+  font-size: 0.9rem;
+  opacity: 0.85;
+  letter-spacing: 0.3px;
+  background: #f8f9fa;
+  border-top: 1px solid rgba(0,0,0,.05);
+  padding: 2rem 0;
+  text-align: center;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .postit, .postit-square { width: 200px; height: 200px; }
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "title": "Buy Groceries",
+    "desc": "Remember to buy milk, bread, eggs, and some fresh fruits for the week. Check if we need any snacks or coffee.",
+    "color": "#fff475",
+    "created": "2026-01-14T19:53:47.959Z"
+  },
+  {
+    "name": "Matteo Barcellona",
+    "email": "example@email.com",
+    "title": "Call Client",
+    "desc": "Call the client to discuss the project updates, clarify deadlines, and confirm the next meeting schedule. Prepare notes before the call.",
+    "color": "#ffd180",
+    "created": "2026-01-14T19:53:56.389Z"
+  },
+  {
+    "name": "Alice Johnson",
+    "email": "alice@example.com",
+    "title": "Team Ideas",
+    "desc": "Brainstorm new marketing strategies for the upcoming product launch. Include ideas for social media campaigns, influencer collaborations, and email newsletters.",
+    "color": "#fff475",
+    "created": "2026-01-14T19:58:33.164Z"
+  },
+  {
+    "name": "Matteo Barcellona",
+    "email": "example@email.com",
+    "title": "Project Plan",
+    "desc": "Work on the social media campaign plan for the new project. Include content schedule, target audience analysis, and possible ad budgets for each platform.",
+    "color": "#b9f6ca",
+    "created": "2026-01-14T20:04:04.491Z"
+  },
+  {
+    "name": "Matteo",
+    "email": "example@email.com",
+    "title": "Meeting Notes",
+    "desc": "During this week’s team meeting, we discussed upcoming project deadlines, assigned tasks to each member, and reviewed priorities. Follow-up actions are scheduled for Thursday.",
+    "color": "#ff80ab",
+    "created": "2026-01-14T20:05:42.260Z"
+  },
+  {
+    "name": "Emma Williams",
+    "email": "emma@example.com",
+    "title": "Weekly Report",
+    "desc": "Prepare the weekly report including completed tasks, pending issues, and notes for next week. Share it with the team by Friday afternoon.",
+    "color": "#a7ffeb",
+    "created": "2026-01-14T20:10:00.000Z"
+  },
+  {
+    "name": "Liam Smith",
+    "email": "liam@example.com",
+    "title": "Gym Schedule",
+    "desc": "Update the gym schedule for the week. Include cardio on Monday and Wednesday, strength training on Tuesday and Thursday, and rest days on Friday and Sunday.",
+    "color": "#ffcc80",
+    "created": "2026-01-14T20:12:30.000Z"
+  },
+  {
+    "name": "Olivia Brown",
+    "email": "olivia@example.com",
+    "title": "Book Reading",
+    "desc": "Finish reading the first three chapters of the new book. Take notes on key points and summarize interesting ideas for discussion in the book club.",
+    "color": "#d1c4e9",
+    "created": "2026-01-14T20:15:45.000Z"
+  },
+  {
+    "name": "Noah Davis",
+    "email": "noah@example.com",
+    "title": "Dinner Plan",
+    "desc": "Plan dinner for the family this week. Include at least two vegetarian options, a quick recipe for Tuesday, and a special dish for the weekend.",
+    "color": "#ffe082",
+    "created": "2026-01-14T20:18:10.000Z"
+  },
+  {
+    "name": "Sophia Miller",
+    "email": "sophia@example.com",
+    "title": "Travel Packing",
+    "desc": "Pack items for the weekend trip. Remember to include clothes, toiletries, chargers, travel documents, and snacks. Double-check before leaving.",
+    "color": "#f48fb1",
+    "created": "2026-01-14T20:20:50.000Z"
+  },
+  {
+    "name": "James Wilson",
+    "email": "james@example.com",
+    "title": "Project Review",
+    "desc": "Review the project documents and highlight tasks that need immediate attention. Prepare a summary for the team meeting on Thursday.",
+    "color": "#b39ddb",
+    "created": "2026-01-14T20:23:15.000Z"
+  },
+  {
+    "name": "Mia Anderson",
+    "email": "mia@example.com",
+    "title": "Birthday Gift",
+    "desc": "Select a birthday gift for Sarah. Consider her hobbies and favorite colors. Order online if needed and ensure delivery before her birthday.",
+    "color": "#80deea",
+    "created": "2026-01-14T20:25:30.000Z"
+  }
+]

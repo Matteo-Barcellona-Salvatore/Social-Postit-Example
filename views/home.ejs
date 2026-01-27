@@ -1,0 +1,35 @@
+<% const body = `
+<section class='bg-primary text-white text-center py-5'>
+  <div class='container'>
+    <h1 class='display-5 fw-bold'>Condividi il tuo pensiero</h1>
+    <p class='lead'>Un luogo dove idee e post-it prendono vita.</p>
+  </div>
+</section>
+
+<div class='container py-5'>
+  <div class='row justify-content-center'>
+    <div class='col-lg-8'>
+      <div class='card shadow-lg p-4'>
+        <h2 class='fw-bold mb-4 text-center'>Nuovo Post-it</h2>
+        <form action='/add' method='POST'>
+          <div class='mb-3'>
+            <input type='text' name='name' class='form-control form-control-lg' placeholder='Nome*' required>
+          </div>
+          <div class='mb-3'>
+            <input type='email' name='email' class='form-control form-control-lg' placeholder='Email*' required>
+          </div>
+          <div class='mb-3'>
+            <input type='text' name='title' class='form-control form-control-lg' placeholder='Titolo*' required>
+          </div>
+          <div class='mb-3'>
+            <textarea name='desc' rows='4' class='form-control form-control-lg' placeholder='Descrizione*' required></textarea>
+          </div>
+          <button class='btn btn-primary btn-lg w-100'>Pubblica</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+` %>
+
+<%- include('layout', { title: 'Home', body }) %>
